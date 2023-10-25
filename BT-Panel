@@ -23,7 +23,7 @@ if os.path.exists('class/flask'):
 
 
 if not 'class/' in sys.path:
-    sys.path.insert(0,'class/')
+    sys.path.insert(1,'class/')
 from BTPanel import app,sys,public
 is_debug = os.path.exists('data/debug.pl')
 
